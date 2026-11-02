@@ -3,6 +3,7 @@ name: Hayato Training Ground - Deploy
 on:
   push:
     branches: ["main"]
+  workflow_dispatch:
 
 jobs:
   export-and-deploy:
